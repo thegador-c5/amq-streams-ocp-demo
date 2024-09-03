@@ -30,6 +30,16 @@ Ensure that the following exists
 * Admin Cluster User with ```cluster-admin``` role
 * Normal Cluster User
 
+## Note: to add a new non-admin user see below
+
+See the following link: https://www.redhat.com/sysadmin/openshift-htpasswd-oauth
+
+Example:
+
+```bash
+htpasswd -c -B -b myhtpasswdfile user1 openshift
+```
+
 ## Create a New Project
 
 As a normal user, create a ```amq-streams-demo``` project:
