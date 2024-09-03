@@ -37,7 +37,7 @@ See the following link: https://www.redhat.com/sysadmin/openshift-htpasswd-oauth
 Example:
 
 ```bash
-htpasswd -c -B -b myhtpasswdfile user1 openshift
+htpasswd -c -B -b myhtpasswdfile user1 <strong-user1-password-here>
 ```
 
 ## Create a New Project
